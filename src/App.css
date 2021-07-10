@@ -28,11 +28,28 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product-card {
+  margin-top: 0.3em;
+  cursor: pointer;
+}
+.product-card:hover{
+  background-color: #000;
+  color: white;
+  transition: 500ms;
+}
+.bottomka{
+  font-size: 3em;
+  padding: 0.3em;
+}
+.bottomka img{
+  cursor: pointer;
+}
+.pad-10{
+  padding: 10px;
+}
+.mtop-10{
+  margin-top: 10px;
+}
+.marginex{
+  margin-bottom: 200px;
 }
